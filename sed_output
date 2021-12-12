@@ -1,0 +1,9 @@
+script:80:validateHeaderOrder() {
+script:95:validateWholeFileContentAndWriteResultFile() {
+script:120:validateNumberOfColumns() {
+script:124:validateState() {
+script:129:validatePostalCode() {
+script:134:validateCity() {
+script:139:validateFareType() {
+script:144:validateInsuranceRate() {
+script:149:validateDeadlines() {
