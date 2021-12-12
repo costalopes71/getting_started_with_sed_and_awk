@@ -82,6 +82,22 @@ sed -n '/^developer/ s@/bin/bash@/bin/banana@g p ' /etc/passwd
 
 ### Append Insert and Delete commands
 
+Append a new line after a line :
+```
+sed ' /^server 3/ a append.a.new.line.after.the.line.starting.with.server.3' /etc/ntp.conf
+```
+
+Insert a new line before a line :
+```
+sed ' /^server 3/ i insert.a.new.line.before.the.line.starting.with.server.3' /etc/ntp.conf
+```
+
+Delete lines from a file :
+```
+sed ' /^server\s[0-9]\.ubuntu/ d ' /etc/ntp.conf
+# deletes the line that begin with 'server [some_number].ubuntu' from the file
+```
+
 
 ## Awk
 
